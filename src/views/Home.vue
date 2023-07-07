@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <!-- <n-alert type="info" :show-icon="false" style="margin-bottom: 20px">
+    <n-alert type="info" :show-icon="false" style="margin-bottom: 20px">
       站点未完工
-    </n-alert> -->
+    </n-alert>
     <n-grid
       v-if="store.newsArr[0] && store.newsArr.filter((item) => item.show)[0]"
       cols="1 560:2 800:3 1100:4 1500:5"
