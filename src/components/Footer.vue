@@ -9,7 +9,7 @@
         @click="jumpLink(packageJson.github)"
       />
       <n-divider vertical />
-      <n-text class="author" :depth="3" v-html="主站" @click="jumpLink('https://faithlch.com')"/>
+      <n-text class="author" :depth="3" @click="jumpLink('https://faithlch.com')" >主站</n-text>
     </div>
     <n-text
       v-if="icp"
