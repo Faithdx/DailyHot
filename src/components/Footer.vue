@@ -8,6 +8,8 @@
         v-html="packageJson.author"
         @click="jumpLink(packageJson.github)"
       />
+      <n-divider vertical />
+      <n-text class="author" :depth="3" v-html="主站" @click="jumpLink('https://faithlch.com')"/>
     </div>
     <n-text
       v-if="icp"
@@ -44,7 +46,7 @@ footer {
     margin-bottom: 4px;
     .description {
       &::after {
-        content: "@ Copyright By";
+        content: "©2023";
         margin: 0 6px;
       }
     }
