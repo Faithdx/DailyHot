@@ -5,9 +5,8 @@
       <n-text
         class="author"
         :depth="3"
-        v-html="packageJson.author"
-        @click="jumpLink(packageJson.github)"
-      />
+        @click="jumpLink('https://github.com/faithdx/dailyHot')"
+      >何弃疗</n-text>
       <n-divider vertical />
       <n-text class="author" :depth="3" @click="jumpLink('https://faithlch.com')" >主站</n-text>
     </div>
